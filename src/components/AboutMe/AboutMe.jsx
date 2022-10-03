@@ -1,4 +1,4 @@
-
+import './AboutMe.css';
 export default function AboutMe () {
     return (
         <div style={{border: '2px solid black'}}>

@@ -10,9 +10,18 @@ function App() {
       <header className="App-header">
         <h1>portfolio</h1>
       </header>
-      <AboutMe />
-      <ProfilePic />
-      <Skills />
+      <div className='HomeLayout'>
+        <div className='Row-1'>
+          <AboutMe className='AboutMe' />
+          <div className='R1-C2'>
+            <ProfilePic className='ProfilePic'/>
+            <div className='Click'>Click Me</div>
+          </div>
+        </div>
+        <div className='Row-2'>
+          <Skills className='Skills' />
+        </div>
+      </div>
     </div>
   );
 }

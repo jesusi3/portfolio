@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import HomePage from './HomePage';
+import ProjectPage from './ProjectPage';
 // import AboutMe from '../components/AboutMe/AboutMe';
 // import ProfilePic from '../components/ProfilePic/ProfilePic';
 // import Skills from '../components/Skills/Skills';
@@ -12,8 +13,11 @@ export default function App() {
             <header className="App-header">
                 <h1>portfolio</h1>
             </header>
-            <HomePage />
+            { page ?
+                <ProjectPage setPage={setPage} page={page}/>:
+                <HomePage setPage={setPage} page={page}/>
 
+            }
         </div>
     );
 }

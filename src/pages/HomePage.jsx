@@ -4,7 +4,7 @@ import ProfilePic from '../components/ProfilePic/ProfilePic';
 import Skills from '../components/Skills/Skills';
 import './App.css';
 
-export default function HomePage() {
+export default function HomePage({setPage, page}) {
 
     return (
     <>
@@ -13,7 +13,7 @@ export default function HomePage() {
             <AboutMe className='AboutMe' />
             <div className='R1-C2'>
                 <ProfilePic className='ProfilePic'/>
-                <div className='Click'>Click Me</div>
+                <div className='Click' onClick={() => setPage(!page)} >Click Me</div>
             </div>
             </div>
             <div className='Row-2'>

@@ -1,7 +1,7 @@
 import './ProfilePic.css';
 export default function ProfilePic () {
     return (
-        <div style={{border: '2px solid black'}}>
+        <div className='ProfilePic'>
             <h1>ProfilePic</h1>
         </div>
 

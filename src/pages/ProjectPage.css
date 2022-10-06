@@ -1,3 +1,9 @@
+
+.ProjectPage {
+    border: solid 5px green;
+    min-height: 90vh;
+}
+
 .Test-1 {
     border: 2px solid black;
 }

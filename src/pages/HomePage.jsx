@@ -1,4 +1,5 @@
 import {motion} from 'framer-motion';
+import { Link } from 'react-router-dom';
 import AboutMe from '../components/AboutMe/AboutMe';
 import ProfilePic from '../components/ProfilePic/ProfilePic';
 import Skills from '../components/Skills/Skills';
@@ -18,14 +19,17 @@ export default function HomePage({setPage, page}) {
             <AboutMe className='AboutMe' />
             <div className='R1-C2'>
                 <ProfilePic className='ProfilePic'/>
-                <motion.button 
-                    whileHover={{ scale: 1.03}}
-                    whileTap={{ scale: 0.8}}
-                    className='Click' 
-                    onClick={() => setPage(!page)} 
-                >
-                    Click Me
-                </motion.button>
+                <Link to='/project'>
+                    <motion.div 
+                        whileHover={{ scale: 1.03}}
+                        whileTap={{ scale: 0.8}}
+                        className='Click' 
+                        onClick={() => setPage(!page)} 
+                    >
+                        Click Me
+                    </motion.div>
+                </Link >
+                
             </div>
             </div>
             <div className='Row-2'>

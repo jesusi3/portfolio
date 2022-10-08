@@ -1,7 +1,7 @@
-
+import './Skills.css';
 export default function Skills () {
     return (
-        <div style={{border: '2px solid black'}}>
+        <div className="Skills">
             <h1>Skills</h1>
         </div>
 

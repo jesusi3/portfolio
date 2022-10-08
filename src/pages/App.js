@@ -10,9 +10,9 @@ export default function App() {
     const [ page, setPage] = useState(false);
     return (
         <div className="App">
-            <header className="App-header">
+            {/* <header className="App-header">
                 <h1>portfolio</h1>
-            </header>
+            </header> */}
             { page ?
                 <ProjectPage setPage={setPage} page={page}/>:
                 <HomePage setPage={setPage} page={page}/>

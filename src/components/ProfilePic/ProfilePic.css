@@ -1,7 +1,8 @@
 .ProfilePic {
     display: flex;
     justify-content: center;
-    background-color: #e8ecf2;
+    /* background-color: #e8ecf2; */
+    background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.05));
     color: #73787d;
     border-radius: 99px;
     border: 0px;

@@ -3,17 +3,19 @@ import { Link } from 'react-router-dom';
 import AboutMe from '../components/AboutMe/AboutMe';
 import ProfilePic from '../components/ProfilePic/ProfilePic';
 import Skills from '../components/Skills/Skills';
+import AnimatedPage from './AnimatedPage';
 import './HomePage.css';
 
 export default function HomePage({setPage, page}) {
 
     return (
     <>
+    <AnimatedPage>
         <motion.div className='HomeLayout'
-            initial={{ opacity: 0.3 }}
-            animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 1.0 }}
+            // initial={{ opacity: 0.3 }}
+            // animate={{ opacity: 1 }}
+            // exit={{ opacity: 0 }}
+            // transition={{ duration: 0.5 }}
         >
             <div className='Row-1'>
             <AboutMe className='AboutMe' />
@@ -35,7 +37,8 @@ export default function HomePage({setPage, page}) {
             <div className='Row-2'>
             <Skills className='Skills' />
             </div>
-        </motion.div>        
+        </motion.div>
+        </AnimatedPage>        
     </>
     );
 }

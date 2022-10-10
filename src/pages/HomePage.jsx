@@ -11,7 +11,7 @@ export default function HomePage({setPage, page}) {
     return (
     <>
     <AnimatedPage>
-        <motion.div className='HomeLayout'
+        <div className='HomeLayout'
             // initial={{ opacity: 0.3 }}
             // animate={{ opacity: 1 }}
             // exit={{ opacity: 0 }}
@@ -37,7 +37,7 @@ export default function HomePage({setPage, page}) {
             <div className='Row-2'>
             <Skills className='Skills' />
             </div>
-        </motion.div>
+        </div>
         </AnimatedPage>        
     </>
     );

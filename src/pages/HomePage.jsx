@@ -6,7 +6,7 @@ import Skills from '../components/Skills/Skills';
 import AnimatedPage from './AnimatedPage';
 import './HomePage.css';
 
-export default function HomePage({setPage, page}) {
+export default function HomePage() {
 
     return (
     <>
@@ -26,7 +26,7 @@ export default function HomePage({setPage, page}) {
                         whileHover={{ scale: 1.03}}
                         whileTap={{ scale: 0.8}}
                         className='Click' 
-                        onClick={() => setPage(!page)} 
+                       
                     >
                         Click Me
                     </motion.div>

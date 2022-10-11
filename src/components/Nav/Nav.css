@@ -16,10 +16,21 @@
     /* justify-content: center; */
     font-size: calc(10px + 2vmin);
     color: white;
+}
+
+.App-header a {
+    color: #73787d;
   }
 
 .Nav-flex-end {
     font-size: calc(10px + 2vmin);
     display: flex;
+    align-items: center;
     gap: 5px;
+    color: #73787d;
+}
+
+.Nav-flex-end a {
+    color: #73787d;
+
 }

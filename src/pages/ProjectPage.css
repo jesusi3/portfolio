@@ -26,11 +26,16 @@
 }
 .Project-Names {
     /* background-color: red; */
+    position: relative;
     display: block;
     background-color: #0499F5;
-    margin: 0 auto;
+    margin-top: 0 ;
     height: 50vh;
     color: black;
     
+}
+
+.Project-Names div {
+    font-size: 6rem;
 }
 

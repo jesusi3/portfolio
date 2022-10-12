@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import './Nav.css';
 
-export default function Nav () {
+export default function Nav ({home, setHome}) {
     return (
         <div className='Nav'>
             <header className="App-header">
-                <Link to='/'><h1>My Portfolio</h1></Link>
+                <Link to='/'><h1 onClick={() => setHome(!home)}>My Portfolio</h1></Link>
             </header>
             <div className='Nav-flex-end'>
                 <div><Link to='/about'>AboutMe</Link></div>

@@ -1,15 +1,10 @@
 
 .ProjectPage {
-    border: solid 5px green;
+    /* border: solid 5px green; */
     /* background-color: pink; */
     min-height: 90vh;
-    /* -webkit-clip-path: circle(58.5% at 49% 26%); */
-/* clip-path: polygon(58.5% at 49% 26%); */
 }
 
-.Test-1 {
-    border: 2px solid black;
-}
 
 .curved {
     /* background-color: #ff3c00; */
@@ -27,4 +22,15 @@
 
 .curved svg {
     display: block;
+    
 }
+.Project-Names {
+    /* background-color: red; */
+    display: block;
+    background-color: #0499F5;
+    margin: 0 auto;
+    height: 50vh;
+    color: black;
+    
+}
+

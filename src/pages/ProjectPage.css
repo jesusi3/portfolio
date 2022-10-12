@@ -1,9 +1,30 @@
 
 .ProjectPage {
     border: solid 5px green;
+    /* background-color: pink; */
     min-height: 90vh;
+    /* -webkit-clip-path: circle(58.5% at 49% 26%); */
+/* clip-path: polygon(58.5% at 49% 26%); */
 }
 
 .Test-1 {
     border: 2px solid black;
+}
+
+.curved {
+    /* background-color: #ff3c00; */
+    color: #0499F5;
+    text-align: center;
+}
+
+.curved h1 {
+    font-size: 6rem;
+}
+
+.curved p {
+    font-size: 1 rem;
+}
+
+.curved svg {
+    display: block;
 }

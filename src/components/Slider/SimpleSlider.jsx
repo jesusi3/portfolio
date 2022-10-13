@@ -17,13 +17,13 @@ export default function SimpleSlider() {
         <div className='Slider'>
           <Slider {...settingsNoModules}>
           <div className="lorem">
-            <p>Lorem Ipsum 1</p>
+            <p>Comic Trio</p>
           </div>
           <div className="lorem">
-            <p>Lorem Ipsum 2</p>
+            <p>Save the Date</p>
           </div>
           <div className="lorem">
-            <p>Lorem Ipsum 3</p>
+            <p>Green Pill</p>
           </div>
         </Slider>
         </div>

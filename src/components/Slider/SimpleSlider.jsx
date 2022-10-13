@@ -1,4 +1,3 @@
-import React, { Component } from "react";
 import Slider from "react-slick";
 import './Slider.css';
 
@@ -17,13 +16,13 @@ export default function SimpleSlider() {
       return (
         <div className='Slider'>
           <Slider {...settingsNoModules}>
-          <div>
+          <div className="lorem">
             <p>Lorem Ipsum 1</p>
           </div>
-          <div>
+          <div className="lorem">
             <p>Lorem Ipsum 2</p>
           </div>
-          <div>
+          <div className="lorem">
             <p>Lorem Ipsum 3</p>
           </div>
         </Slider>

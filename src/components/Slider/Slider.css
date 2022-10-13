@@ -3,18 +3,19 @@
     vertical-align: middle;
     margin: auto;
     padding: 0;
-    background: rgba(255, 255, 255, 0.3);
     border-radius: 40px;
     width: 30vw;
     text-align: center;
-  }
-  
-  .button__bar li {
+    /* margin-top: -220px; */
+}
+
+.button__bar li {
     list-style: none;
     cursor: pointer;
     display: inline-block;
     margin: 0 3px;
     padding: 0;
+    margin-top: -220px;
   }
   
   .button__bar li button {
@@ -23,9 +24,10 @@
     color: transparent;
     cursor: pointer;
     display: block;
-    height: 25px;
-    width: 25px;
+    height: 55px;
+    width: 75px;
     border-radius: 7.5px;
+    /* margin-top: -220px; */
   }
   
   .button__bar li.slick-active button {
@@ -44,3 +46,6 @@
     margin: auto;
   }
   
+  .lorem {
+    margin-top: -100px;
+  }

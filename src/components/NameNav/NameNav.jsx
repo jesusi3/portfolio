@@ -10,6 +10,7 @@ export default function NameNav({projects, projectName, setProjectName}) {
     return (
         <ul className='NameNav'>
             {project}
+            
         </ul>
     );
 }

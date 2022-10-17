@@ -16,7 +16,6 @@ export default function ProjectPage({projects}) {
         TitleRef.current = projects.map( project => project.Title);;
         setProjectName(TitleRef.current[0])
     }, [projects]);
-    // console.log(projectName);
 
     return (
     <>

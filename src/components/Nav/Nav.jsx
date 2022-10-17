@@ -5,11 +5,12 @@ export default function Nav ({home, setHome}) {
     return (
         <div className='Nav'>
             <header className="App-header">
-                <Link to='/'><h1 onClick={() => setHome(!home)}>My Portfolio</h1></Link>
+                <Link to='/'><h1 onClick={() => setHome(!home)}>Jesus Sanchez</h1></Link>
             </header>
             <div className='Nav-flex-end'>
                 <div><Link to='/about'>AboutMe</Link></div>
                 <div><Link to='/project'>Projects</Link></div>
+                <div><Link to='/skills'>Skills</Link></div>
                 <div>LinkedIn </div>
                 <div>Github </div>
             </div>

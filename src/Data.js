@@ -17,4 +17,5 @@ export const projects = [
         TechStack: "React.js, Javascript, Node.js, Express, Mongoose, MongoDB, JSX, AJAX, CSS",
         Images: [ "https://i.gyazo.com/8d828b806b3cd6fe272f45b47fa6706c.png", "https://i.gyazo.com/5731ea24aba6c057513895934d04282b.png"]
     }
+
 ];

@@ -5,6 +5,7 @@ import { useState } from 'react';
 import HomePage from './HomePage';
 import ProjectPage from './ProjectPage';
 import LandingPage from './LandingPage';
+import Skills from '../components/Skills/Skills';
 import Nav from '../components/Nav/Nav';
 import { projects } from '../Data';
 // import SimpleSlider from '../components/Slider/SimpleSlider';
@@ -21,6 +22,7 @@ export default function App() {
               <Routes>
                   <Route path="/about" element={<HomePage />} ></Route>
                   <Route path="/project" element={<ProjectPage  projects={projects}/>} ></Route>
+                  <Route path="/skills" element={<Skills  projects={projects}/>} ></Route>
               </Routes>
             </>
             : 

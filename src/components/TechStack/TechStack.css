@@ -1,0 +1,21 @@
+
+.TechStack {
+    /* display: ; */
+    width:80%;
+}
+
+.Front {
+    margin: 10px;
+    border: 2px solid black;
+    height: 10vh;
+}
+.Back {
+    margin: 10px;
+    height: 10vh;
+    border: 2px solid black;
+}
+.Tools {
+    margin: 10px;
+    height: 10vh;
+    border: 2px solid black;
+}

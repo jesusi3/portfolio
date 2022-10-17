@@ -1,20 +1,21 @@
 .Nav {
     display: flex;
     justify-content: space-between;
+    background-color: #466576;
 }
 
 .App-header {
-    background-color: #e8ecf2;
+    /* background-color: #e8ecf2; */
     max-height: 10vh;
     width: 100 vw;
     display: flex;
     align-items: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    margin-left: 30px;
 }
 
 .App-header a {
-    color: #73787d;
+    color: #e8ecf2;
   }
 
 .Nav-flex-end {
@@ -22,10 +23,11 @@
     display: flex;
     align-items: center;
     gap: 5px;
-    color: #73787d;
+    color: #e8ecf2;
+    margin-right: 30px;
 }
 
 .Nav-flex-end a {
-    color: #73787d;
+    color: #e8ecf2;
 
 }

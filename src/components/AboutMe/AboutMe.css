@@ -1,11 +1,11 @@
 .AboutMe {
     /* background-color: #e8ecf2; */
     background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.05));
-    color: #0499F5;
+    color: #6A94AD;
     border-radius: 99px;
     border: 0px;
-    box-shadow: -10px -5px 10px rgba(255, 255, 255, 0.8),
-     5px 5px 10px rgba(0, 0, 0, 0.25);
+    /* box-shadow: -10px -5px 10px rgba(255, 255, 255, 0.8),
+     5px 5px 10px rgba(0, 0, 0, 0.25); */
 }
 
 .AboutMe-1 {

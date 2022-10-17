@@ -4,9 +4,9 @@ import './Nav.css';
 export default function Nav ({home, setHome}) {
     return (
         <div className='Nav'>
-            <header className="App-header">
+            <div className="App-header">
                 <Link to='/'><h1 onClick={() => setHome(!home)}>Jesus Sanchez</h1></Link>
-            </header>
+            </div>
             <div className='Nav-flex-end'>
                 <div><Link to='/about'>AboutMe</Link></div>
                 <div><Link to='/project'>Projects</Link></div>

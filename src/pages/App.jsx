@@ -6,6 +6,7 @@ import HomePage from './HomePage';
 import ProjectPage from './ProjectPage';
 import LandingPage from './LandingPage';
 import Nav from '../components/Nav/Nav';
+import { projects } from '../Data';
 // import SimpleSlider from '../components/Slider/SimpleSlider';
 
 import './App.css';
@@ -19,7 +20,7 @@ export default function App() {
               <Nav home={home} setHome={setHome}/>
               <Routes>
                   <Route path="/about" element={<HomePage />} ></Route>
-                  <Route path="/project" element={<ProjectPage />} ></Route>
+                  <Route path="/project" element={<ProjectPage  projects={projects}/>} ></Route>
               </Routes>
             </>
             : 

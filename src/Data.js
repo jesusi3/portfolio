@@ -17,4 +17,4 @@ export const projects = [
         TechStack: "Mern stack",
         Images: [ "img", "img"]
     }
-]
+];

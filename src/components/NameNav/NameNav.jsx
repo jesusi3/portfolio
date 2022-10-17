@@ -1,10 +1,15 @@
 import './NameNav.css'
-export default function NameNav() {
+export default function NameNav({projects, projectName, setProjectName}) {
+    const project = projects.map( (project, idx) => 
+        <li key={idx}
+         className='neu-btn'
+        onClick={() => setProjectName={project}}>
+           {project}
+        </li> 
+        );
     return (
         <ul className='NameNav'>
-            <li className='neu-btn'>Comic-Trio</li>
-            <li className='neu-btn'>Save the Date</li>
-            <li className='neu-btn'>GreenPill</li>
+            {project}
         </ul>
     );
 }

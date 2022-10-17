@@ -6,7 +6,7 @@ import HomePage from './HomePage';
 import ProjectPage from './ProjectPage';
 import LandingPage from './LandingPage';
 import Nav from '../components/Nav/Nav';
-import SimpleSlider from '../components/Slider/SimpleSlider';
+// import SimpleSlider from '../components/Slider/SimpleSlider';
 
 import './App.css';
 

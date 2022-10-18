@@ -5,7 +5,7 @@ export default function LandingPage() {
     return (
 
             <div className='LandingPage'>
-                <Link to='/about'><div>Hello</div></Link>
+                <Link to='/project' ><div>Hello</div></Link>
             </div>
     );
 }

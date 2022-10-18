@@ -1,7 +1,12 @@
 .Image {
-    border: 5px solid black;
+    /* border: 5px solid black; */
     display: flex;
     justify-content: center;
     height: 40vmin;
     width: 40vmin;
+}
+
+.Image img {
+    border: 5px solid black;
+
 }

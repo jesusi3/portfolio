@@ -1,9 +1,7 @@
-// import {motion} from 'framer-motion';
 import { useState,useEffect, useRef } from 'react';
 import Nav from '../components/Nav/Nav';
 import NameNav from '../components/NameNav/NameNav';
 import ProjectDetail from '../components/ProjectDetail/ProjectDetail';
-// import 'Greenhistorypages.png'
 import './ProjectPage.css';
 
 
@@ -11,11 +9,14 @@ import './ProjectPage.css';
 export default function ProjectPage({projects}) {
     const [projectName, setProjectName] = useState('');
     const TitleRef = useRef([]);
-    // const projectdetail = projects.map( (project, idx) => <ProjectDetail key={idx} project={project}  />)
-
+    // const images = preimages.Images.map(img => img);
+    // console.log(images)
+    
     useEffect( function (){
-        TitleRef.current = projects.map( project => project.Title);;
-        setProjectName(TitleRef.current[0])
+        TitleRef.current = projects.map( project => project.Title);
+        setProjectName(TitleRef.current[0]);
+        const preimages = projects.find( (img) => img.Title === projectName );
+        console.log(preimages);
     }, [projects]);
 
     return (

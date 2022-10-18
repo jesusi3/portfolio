@@ -19,10 +19,10 @@
   }
 
 .Nav-flex-end {
-    font-size: calc(10px + 2vmin);
+    font-size: 3.5vmin;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 2rem;
     color: #e8ecf2;
     margin-right: 30px;
 }
@@ -31,3 +31,7 @@
     color: #e8ecf2;
 
 }
+/* .Nav-flex-end div {
+    display: flex;
+    align-items: center;
+} */

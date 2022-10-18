@@ -4,18 +4,28 @@
     width:80%;
 }
 
+.TechStack h3 {
+    font-size: 1.5rem;
+    color: #6A94AD;
+    margin-top: 50px;
+}
+
 .Front {
     margin: 10px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     height: 10vh;
+    display: flex;
+    justify-content: center;
+
 }
-.Back {
+
+.stack svg {
+    height: 5rem;
+    width: 5rem;
     margin: 10px;
-    height: 10vh;
-    border: 2px solid black;
 }
-.Tools {
+.stack img {
+    height: 5rem;
+    width: 5rem;
     margin: 10px;
-    height: 10vh;
-    border: 2px solid black;
 }

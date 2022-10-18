@@ -11,12 +11,12 @@ export default function ProjectPage({projects}) {
     const TitleRef = useRef([]);
     // const images = preimages.Images.map(img => img);
     // console.log(images)
+    const preimages = projects.find( (img) => img.Title === projectName );
+    console.log(preimages);
     
     useEffect( function (){
         TitleRef.current = projects.map( project => project.Title);
         setProjectName(TitleRef.current[0]);
-        const preimages = projects.find( (img) => img.Title === projectName );
-        console.log(preimages);
     }, [projects]);
 
     return (

@@ -1,4 +1,3 @@
-import {SiExpress} from "react-icons/si";
 import './TechStack.css';
 
 export default function TechStack () {
@@ -7,37 +6,35 @@ export default function TechStack () {
             <h3>Programming languages</h3> 
             <div className='Front'>
                 <div className='stack'>
-                    {/* <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="Javascript" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png" alt="python3" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html5" />
-                    <img src="https://cdn-icons-png.flaticon.com/128/732/732190.png" alt="css" /> */}
+                    <img src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg" alt="javascript" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" alt="python3" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/html-1.svg" alt="html5" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/css-3.svg" alt="css" />
                     
                 </div>
             </div>
             <h3>Libraries/Frameworks/Databases</h3> 
             <div className='Front'>
                 <div className='stack'>
-                    {/* <img src="https://cdn-icons-png.flaticon.com/128/919/919851.png" alt="react" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" alt="node" /> */}
-                    <SiExpress/>
-                    {/* <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="mongo" />
-                    <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_django_icon_130645.png" alt="django" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968342.png" alt="postgres" />
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968672.png" alt="bootstrap" />
-                    <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="git" /> */}
-                    
-
+                    <img src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="react" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/nodejs-icon.svg" alt="node" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/express-109.svg" alt="express" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/mongodb-icon-1.svg" alt="mongo" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/postgresql.svg" alt="postgres" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg" alt="bootstrap" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/git-icon.svg" alt="git" />
                 </div>
             </div>
             <h3>Software Tools</h3> 
             <div className='Front'>
                 <div className='stack'>
-                    {/* <img src="https://cdn-icons-png.flaticon.com/128/2111/2111615.png" alt="slack" />
-                    <img src="https://cdn-icons-png.flaticon.com/128/5969/5969328.png" alt="zoom" />
-                    <img src="https://cdn-icons-png.flaticon.com/512/732/732252.png" alt="trello" />
-                    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968705.png" alt="figma" />
-                    <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/microsoft-office-512.png" alt="micrsoft office" />
-                    <img src="https://orangestar.com/wp-content/uploads/2019/05/g-suite-icon.png" alt="google suite" /> */}
+                    <img src="https://cdn.worldvectorlogo.com/logos/slack-new-logo.svg" alt="slack" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/zoom-communications-logo.svg" alt="zoom" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/trello.svg" alt="trello" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/figma-1.svg" alt="figma" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/office-2.svg" alt="micrsoft office" />
+                    <img src="https://cdn.worldvectorlogo.com/logos/google-1-1.svg" alt="google suite" />
 
                 </div>
             </div>

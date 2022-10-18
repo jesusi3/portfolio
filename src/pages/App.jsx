@@ -1,36 +1,22 @@
 
 import { Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
-// import {motion, AnimatePresence} from 'framer-motion';
 import HomePage from './HomePage';
 import ProjectPage from './ProjectPage';
 import LandingPage from './LandingPage';
 import Skills from '../components/Skills/Skills';
-import Nav from '../components/Nav/Nav';
 import { projects } from '../Data';
-// import SimpleSlider from '../components/Slider/SimpleSlider';
 
 import './App.css';
 
 export default function App() {
-    const [home, setHome] = useState(false); 
     return (
-          <div className="App">
-            { home ? 
-            <>
-              <Nav home={home} setHome={setHome}/>
-              <Routes>
-                  <Route path="/about" element={<HomePage />} ></Route>
-                  <Route path="/project" element={<ProjectPage  projects={projects}/>} ></Route>
-                  <Route path="/skills" element={<Skills  projects={projects}/>} ></Route>
-              </Routes>
-            </>
-            : 
-            <Routes>
-                <Route path="/*" element={<LandingPage home={home} setHome={setHome} />} ></Route>
-            </Routes>
-            }
-
-          </div>
+      <div className="App">
+          <Routes>
+              <Route path="/about" element={<HomePage />} ></Route>
+              <Route path="/project" element={<ProjectPage  projects={projects}/>} ></Route>
+              <Route path="/skills" element={<Skills  projects={projects}/>} ></Route>
+              <Route path="/*" element={<LandingPage/>} ></Route>
+          </Routes>
+      </div>
     );
 }

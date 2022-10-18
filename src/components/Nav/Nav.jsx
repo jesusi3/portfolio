@@ -6,7 +6,7 @@ export default function Nav ({home, setHome}) {
     return (
         <div className='Nav'>
             <div className="App-header">
-                <Link to='/'><h1 onClick={() => setHome(!home)}>Jesus Sanchez</h1></Link>
+                <Link to='/'><h1>Jesus Sanchez</h1></Link>
             </div>
             <div className='Nav-flex-end'>
                 <div><Link to='/about'>AboutMe</Link></div>

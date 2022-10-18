@@ -11,6 +11,9 @@
     /* background-color: #ff3c00; */
     color: #0499F5;
     text-align: center;
+    display: flex ;
+    justify-content: center;
+    
 }
 
 .curved h1 {

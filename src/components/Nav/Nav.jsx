@@ -12,8 +12,8 @@ export default function Nav ({home, setHome}) {
                 <div><Link to='/about'>AboutMe</Link></div>
                 <div><Link to='/project'>Projects</Link></div>
                 {/* <div><Link to='/skills'>Skills</Link></div> */}
-                <div><SiLinkedin /> </div>
-                <div><SiGithub/>  </div>
+                <div><a href="https://www.linkedin.com/in/jesus-sanchez-js508102/"><SiLinkedin /></a> </div>
+                <div><a href="https://github.com/jesusi3"><SiGithub/></a>  </div>
             </div>
         </div >
     );

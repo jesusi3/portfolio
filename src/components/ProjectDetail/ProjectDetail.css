@@ -1,0 +1,7 @@
+.Image {
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    height: 40vmin;
+    width: 40vmin;
+}

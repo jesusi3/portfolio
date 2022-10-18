@@ -2,11 +2,11 @@
 .NameNav {
     display:flex;
     list-style-type: none;
-    
-    height: 50px;
+    /* height: 20vh; */
     text-align: center;
     justify-content: space-evenly;
     align-items: center;
+    
 }
 
 .NameNav li {

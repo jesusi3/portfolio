@@ -9,15 +9,27 @@ import './ProjectPage.css';
 export default function ProjectPage({projects}) {
     const [projectName, setProjectName] = useState('');
     const TitleRef = useRef([]);
-    // const images = preimages.Images.map(img => img);
-    // console.log(images)
-    const preimages = projects.find( (img) => img.Title === projectName );
-    console.log(preimages);
     
     useEffect( function (){
-        TitleRef.current = projects.map( project => project.Title);
-        setProjectName(TitleRef.current[0]);
-    }, [projects]);
+        async function getAll() {
+            TitleRef.current = projects.map( project => project.Title);
+            // console.log(TitleRef.current[0])
+            setProjectName(TitleRef.current[0]);
+            const preimages = await projects.find( (img) => img.Title === projectName );
+            console.log(preimages);
+            const images = await preimages.Images.map(img => img);
+            console.log(images)
+        }
+        getAll();
+    }, [projects, projectName]);
+    // I cant solve this problem
+    // async function getImages() {
+    //     const preimages = await projects.find( (img) => img.Title === projectName );
+    //     console.log(preimages);
+    //     const images = await preimages.Images.map(img => img);
+    //     console.log(images)
+
+    // }
 
     return (
     <>

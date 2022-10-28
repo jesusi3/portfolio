@@ -12,7 +12,7 @@ export default function Random({project}) {
                 <div className='Details'>
                     <div>{project.Title}</div>
                     <p>{project.Description}</p>
-                    <h4>{project.TechStack}</h4>
+                    <h4>TechStack: {project.TechStack}</h4>
                 </div>
             </li>
         </ul>

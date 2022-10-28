@@ -1,12 +1,15 @@
-import {useState, useEffect} from 'react';
+
+import Random from '../Random/Random';
 import './ProjectDetail.css';
-export default function ProjectDetail({projDet, projectName}) {
-    console.log('det',projDet[0])
-    // const hello = projDet
+export default function ProjectDetail({projDet}) {
+    // const projects = projDet.map((project, idx) => project)
+    const projects = projDet.map( (project, idx) => 
+        <Random key={idx} project={project} />
+        );
     return(
         <div className='Image'>
-            {/* <img src={projDet[0].Images} alt="" /> */}
-            {/* <button onClick={tester}>hello</button> */}
+            {projects}
+            {/* <h1>{projects.Title}</h1> */}
         </div>
     );
 

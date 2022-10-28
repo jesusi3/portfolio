@@ -13,7 +13,8 @@ export default function App() {
           <Routes>
               <Route path="/about" element={<HomePage />} ></Route>
               <Route path="/project" element={<ProjectPage/>} ></Route>
-              <Route path="/" element={<LandingPage/>} ></Route>
+              <Route path="/" element={<LandingPage/>} ></Route> 
+              <Route path="https://www.linkedin.com/in/jesus-sanchez-js508102/"></Route> 
           </Routes>
       </div>
     );

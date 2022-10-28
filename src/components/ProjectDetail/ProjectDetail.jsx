@@ -7,7 +7,7 @@ export default function ProjectDetail({projDet}) {
         <Random key={idx} project={project} />
         );
     return(
-        <div className='Image'>
+        <div>
             {projects}
             {/* <h1>{projects.Title}</h1> */}
         </div>

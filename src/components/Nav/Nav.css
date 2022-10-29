@@ -12,6 +12,7 @@
     align-items: center;
     font-size: calc(10px + 2vmin);
     margin-left: 30px;
+    color: #e8ecf2;
 }
 
 .App-header a {
@@ -29,5 +30,5 @@
 
 .Nav-flex-end a {
     color: #e8ecf2;
-
+    text-decoration: none;
 }

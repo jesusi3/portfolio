@@ -1,45 +1,27 @@
 
 .HomeLayout {
-    /* display: grid; */
-    /* height: 90vh; */
-    /* grid-template-rows: 3fr 1fr; */
-    /* border: 5px solid pink; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 0; */
-    /* border: 3px solid black; */
-    
   }
   
   .Row-1 {
     margin-top: 5vmin;
-    /* display: grid; */
-    /* grid-template-columns: 4fr 3fr; */
-    /* border: 3px solid black; */
     padding: 10px;
     gap: 50px;
     display: flex;
-    /* flex-direction: column ; */
     justify-content: center;
     align-items: center;
   }
 
   .AboutMe {
     width: 50%;
-    /* margin-top: 0; */
   }
   
   .R1-C2 {
-    /* display: grid;
-    grid-template-rows: 4fr 2fr; */
-    /* height: ; */
-    /* gap: 20px; */
     display: flex;
     align-items: center;
-    /* margin-bottom: -20px; */
-
   }
 
   .Row-2 {
@@ -67,5 +49,4 @@
      5px 5px 10px rgba(0, 0, 0, 0.25);
     height: 100%;
     text-align: center;
-    
   }

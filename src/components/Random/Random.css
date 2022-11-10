@@ -26,19 +26,17 @@
 }
 
 .PTitle {
-    /* color: #88ACBC; */
+    color: #88ACBC;
+    /* color: #466576; */
     font-weight: bolder;
     font-size: 2.7rem;
-    
-    /* text-decoration: underline overline #466576; */
+    text-shadow: 2px 2px #466576;
 }
 
 .Demo {
     display: flex;
     justify-content: center;
-    /* border: 2px solid #466576; */
     border-radius: 10px;
-    /* background-color: #466576; */
     gap: 10px;
 }
 
@@ -63,11 +61,11 @@
 }
 .Tech-2 {
     color: #466576;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
 .Tech {
-    /* text-decoration: underline; */
     display: flex;
     justify-content: center;
     gap: 10px;
+    color: #88ACBC;
 }
